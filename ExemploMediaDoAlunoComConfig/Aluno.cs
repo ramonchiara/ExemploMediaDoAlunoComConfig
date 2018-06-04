@@ -6,7 +6,7 @@ namespace ExemploMediaDoAlunoComConfig
 	{
 		private string nome;
 		private double p1, p2;
-		private double mediaMinima = 6;
+		private static double mediaMinima = 6;
 
 		public Aluno(string nome, double p1, double p2)
 		{
@@ -22,7 +22,7 @@ namespace ExemploMediaDoAlunoComConfig
 
 		public void SetMediaMinima(double mediaMinima)
 		{
-			this.mediaMinima = mediaMinima;
+			Aluno.mediaMinima = mediaMinima;
 		}
 
 		public double GetMedia()
