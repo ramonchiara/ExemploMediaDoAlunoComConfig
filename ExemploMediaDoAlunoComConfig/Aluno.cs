@@ -20,7 +20,7 @@ namespace ExemploMediaDoAlunoComConfig
 			return nome;
 		}
 
-		public void SetMediaMinima(double mediaMinima)
+		public static void SetMediaMinima(double mediaMinima)
 		{
 			Aluno.mediaMinima = mediaMinima;
 		}
